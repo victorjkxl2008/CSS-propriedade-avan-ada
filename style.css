@@ -1,0 +1,43 @@
+/* Reset básico e estilos do corpo */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilizando o contêiner da navbar */
+.navbar-container {
+    background-color: #333;
+    padding: 15px;
+    color: white;
+}
+
+/* Estilizando os links dentro da navbar para melhor visualização */
+.navbar-container a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px; /* Adiciona um espaço entre os links */
+    font-size: 18px;
+}
+
+.logo a {
+    font-weight: bold;
+    font-size: 24px;
+}
+.navbar-container{
+    /* Transforma os filhos em Flexbox */
+    display: flex;
+
+    /* Coloca a logo no ínicio e o menu no final */
+    justify-content: space-between;
+
+    /* Centraliza eles na vertical */
+    align-items: center;
+}
+/* Estilos do Rodapé / Footer */
+.footer-container{
+    background-color: #222;
+    color: #aaa;
+    padding: 20px;
+    margin-top: 40px;
+}
